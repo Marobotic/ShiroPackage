@@ -1,0 +1,191 @@
+body {
+    /*   background-color: #2a2a2a;*/
+    margin: 0px;
+    padding: 0px;
+    background: url('https://pbs.twimg.com/media/EJwciHIUUAA-y6h.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: Roboto;
+}
+.desktop_elements{
+    display: flex;
+
+    flex-flow: column wrap;
+    max-height: 100%;
+    overflow: auto;
+    align-content: flex-start;
+    margin: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.desktop_icon {
+    width: 64px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative; /* give it some context */
+    padding: 7px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .desktop_icon:hover:after {
+    transition: all 0.3s ease 0s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #ad97f8;
+    background: rgba(70, 68, 96, 0.4);
+    cursor: pointer;
+    border-radius: 15%;
+  
+    
+  }
+.icon_name{
+    margin: 0px;
+    color: #fff;
+    text-align: center;;
+}
+
+.desktop_window{
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll;
+    background: #353949;
+    position: relative;
+}
+.window_taskbar{
+ 
+    position: relative;
+    background-color: #414554;
+    height: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #ad97f8;
+}
+.window_close{
+    float:right;
+    color: #000;
+    background-color: #ad97f8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+    border: 0;
+
+}
+.window_title{
+    position: absolute;
+    top: 0px;
+    color: #fff;
+  
+}
+.window_destination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px
+}
+.profile_pic{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.profile_name{
+    font-size: 23px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.window_content{
+    max-width: 800px;
+}
+.content_text{
+  
+    color: #7a819f;
+    font-size: 30px;
+    padding: 15px
+}
+
+.Nare{
+    background: url(https://cdn.discordapp.com/avatars/141986681766019072/b9551ca45a3ebefbd51f831992e358c7.jpg?size=2048) no-repeat;
+    background-size: cover;  
+}
+
+.Maro{
+    background: url(https://cdn.discordapp.com/avatars/110727944422354944/77c4cb133e2a2b3155cfdd31fad725e2.jpg?size=2048) no-repeat;
+    background-size: cover;  
+}
+
+.Alex{
+    background: url(https://cdn.discordapp.com/avatars/159655035288944641/f691b62482cc68ca4d08896b860fb03b.jpg?size=2048) no-repeat;
+    background-size: cover;  
+}
+
+.Dove{
+    background: url(https://cdn.discordapp.com/avatars/188749727838371851/930fe764260b89f84b20ac7af2e5b193.jpg?size=2048) no-repeat;
+    background-size: cover;  
+}
+
+.Wolfie{
+    background: url(https://cdn.discordapp.com/avatars/315122733455245312/ff3101e967272014948e87288cc320bf.jpg?size=2048) no-repeat;
+    background-size: cover;  
+}
+
+.Bunny{
+    background: url(https://cdn.discordapp.com/attachments/465474718854676480/651172697404997643/10f8b848aebce0034b4cc39d76fa8e15.png) no-repeat;
+    background-size: cover;  
+}
+.Mathy{
+    background: url(https://cdn.discordapp.com/avatars/77221076945338368/a_4b5aca958f8ee0ce8f85a29b7e5475f4.gif) no-repeat;
+    background-size: cover;  
+}
+
+.alex_button{
+    /* font-family: 'Roboto'; */
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000 !important;
+    background-color: #ededed !important;
+    border: none;
+    border-radius: 10px !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    white-space: normal;
+    background: #ededed !important;
+    padding: 10px
+}
+
+.bottom_bar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    display: block;
+    background-color: #414554;
+
+    padding: 10px;
+    border-top: 2px solid #ad97f8;
+
+}   
+
+.bar_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shiro_text{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
